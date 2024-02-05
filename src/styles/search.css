@@ -1,0 +1,14 @@
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search__labe {
+  display: flex;
+}
+.search__input {
+  width: 200px;
+  background: grey;
+}
+
+/*# sourceMappingURL=search.css.map */

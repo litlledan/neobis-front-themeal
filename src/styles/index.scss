@@ -1,0 +1,41 @@
+@import "meal";
+@import "search";
+@import "description";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  list-style-type: none;
+  scroll-behavior: smooth;
+
+
+}
+html{
+  font-family: Raleway,sans-serif;
+}
+
+.container{
+  max-width: 1250px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #d49726;
+
+  padding: 30px 0;
+  &__title{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+}

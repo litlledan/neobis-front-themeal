@@ -1,0 +1,45 @@
+.search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+  row-gap: 30px;
+
+  padding-bottom: 80px;
+
+  &__title{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  &__label{
+    display: flex;
+  }
+  &__input{
+    width: 100%;
+
+    background: #dcdcdc;
+
+    border: none;
+    outline: none;
+
+    border-radius: 7px 0 0 7px;
+
+    padding: 18px 14px ;
+    font-size: 17px;
+
+    min-width: 300px;
+  }
+  &__btn{
+    background: #d49726;
+    color: #ffffff;
+
+    padding: 8px 17px;
+    border: none;
+    outline: none;
+
+    cursor: pointer;
+  }
+}
